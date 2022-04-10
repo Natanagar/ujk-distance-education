@@ -23,7 +23,7 @@ const FormDistance:FC<IFormDistance> = () =>  {
     return(
         <div style={{ display : 'flex', flexDirection: 'column', justifyContent : 'center', alignContent : 'center'}}>
             <Title level={3}> Chose type of Distance</Title>
-            <Form initialValues={{ type : 'hausdorff'}} onFinish={handleSubmit} form={form}>    
+            <Form initialValues={{ type : 'hausdorff'}} onFinish={handleSubmit} form={form}>
                 <Form.Item
                     label=""
                     name="type"
